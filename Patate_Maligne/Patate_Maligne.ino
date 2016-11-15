@@ -49,18 +49,11 @@ void setup()
   ICR1=110;
   OCR1A=55;
 
-// Initialisation LED
-
-
 // --- Déclaration des constantes des broches E/S numériques ---
 
-const int ledRouge =10; // Constante pour la broche 3
-const int ledVert =11; // Constante pour la broche 5
-const int ledBleu =12; // Constante pour la broche 6
-
-pinMode(ledRouge, OUTPUT);
-pinMode(ledVert, OUTPUT);
-pinMode(ledBleu, OUTPUT);
+pinMode(R, OUTPUT);
+pinMode(V, OUTPUT);
+pinMode(B, OUTPUT);
 
   pinMode(9,OUTPUT);        //-Signal generator pin
   pinMode(8,OUTPUT);        //-Sync (test) pin
