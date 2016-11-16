@@ -73,16 +73,16 @@ void loop()
   for(unsigned int d=0;d<N;d++)
   {
     
-    if(results[43] > results[83]){
+    if(results[43] > results[80]){
       digitalWrite(B, 0);
       digitalWrite(R, 0);
       digitalWrite(V, 255);
 
-     }else if(results[83] > results[43] && results[83] > results[140]){
+     }else if(results[80] > results[43] && results[80] > results[87]){
       digitalWrite(V, 0);
       digitalWrite(R, 0);
       digitalWrite(B, 255);
-     }else if(results[140] > results[43] && results[140] > results[83]){
+     }else if(results[87] > results[43] && results[87] > results[80]){
       digitalWrite(B, 0);
       digitalWrite(V, 0);
       digitalWrite(R, 255);
